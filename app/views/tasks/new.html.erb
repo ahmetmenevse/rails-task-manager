@@ -1,0 +1,9 @@
+<div class="container my-5">
+  <h2>New Task</h2>
+  <%= render 'form', task: @tasks %>
+
+  <hr>
+  <%= link_to tasks_path do %>
+    <i class="fa-solid fa-arrow-rotate-left"></i> Back to list
+  <% end %>
+</div>
